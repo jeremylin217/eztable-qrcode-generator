@@ -1,0 +1,9 @@
+doctype
+html
+  head
+    title= title
+  body
+    h3 QR-Code Generator
+    form(name="login", action="/qrcode/result", method="get", target="_blank")
+     input(type="text", name="link", placeholder="http://", size="50")
+     input(type='submit',value='Make')
